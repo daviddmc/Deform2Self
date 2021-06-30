@@ -1,0 +1,19 @@
+gpu: '0'
+verbose: true
+# training and model
+num_train: 6000
+num_test: 100
+num_slice: 2
+prob_mask: 0.3
+enable_single: true
+enable_registration: true
+enable_multi: true
+# optimization
+clip_grad_norm: 100.0
+lr: 0.0001
+weight_decay: 0.0 
+# loss
+weight_single: 1.0
+weight_registration: 1.0
+weight_grad: 0.1
+weight_multi: 1.0
