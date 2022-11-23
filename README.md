@@ -2,6 +2,7 @@
 
 ## Resources
 
+- [MICCAI 2021](https://link.springer.com/chapter/10.1007/978-3-030-87196-3_3)
 - [paper (arxiv)](https://arxiv.org/pdf/2106.12175.pdf)
 
 ## Requirements
@@ -29,11 +30,13 @@ python demo.py
 ## Citation
 
 ```
-@article{xu2021deformed2self,
-  title={Deformed2Self: Self-Supervised Denoising for Dynamic Medical Imaging},
+@inproceedings{xu2021deformed2self,
+  title={Deformed2self: Self-supervised denoising for dynamic medical imaging},
   author={Xu, Junshen and Adalsteinsson, Elfar},
-  journal={arXiv preprint arXiv:2106.12175},
-  year={2021}
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={25--35},
+  year={2021},
+  organization={Springer}
 }
 ```
 
